@@ -38,11 +38,18 @@ Enjoy!
 Feel Free To contact me for any comments or suggestions.
 
 ## TODO List
- TODO: 
- -- remove duplicates and bad samples automatically<br />
- -- Add TensorBoard with PyTorch <br />
- -- Add TensorFlow <br />
- -- Deploy on a web-server <br />
+     TODO: 
+     -- remove duplicates and bad samples automatically<br />
+     -- Add TensorBoard with PyTorch <br />
+     -- Add TensorFlow <br />
+     -- Deploy on a web-server <br />
+
+## Use it with any kind of data
+You can train your custom system by modifying the queries inside script:
+    
+    queries=['Raccoon','Cat' ]
+    Attributes=['running']
+
 
 Disclaimer:
 <br />
