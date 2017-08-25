@@ -1,4 +1,4 @@
-# RaccoonsVsCats
+# RaccoonsVsCats-  For those who are tired watching cats vs dogs examples
 Download Images from Google Image search using selenium and train your custom classifier to distinguish raccoons vs cats using PyTorch 
 <br />
 *Please read the disclaimer before proceeding
@@ -49,7 +49,8 @@ You can train your custom system by modifying the queries inside script:
     
     queries=['Raccoon','Cat' ]
     Attributes=['running']
-
+    
+Indeed, you can customize this approach to download any kind of data from any site.
 
 Disclaimer:
 <br />
