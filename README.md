@@ -39,25 +39,27 @@ Feel Free To contact me for any comments or suggestions.
 
 ## TODO List
      TODO: 
-     -- remove duplicates and bad samples automatically 
+     -- Add comments and improve code
+     -- remove duplicate images as well as bad samples automatically 
      -- Add TensorBoard with PyTorch  
-     -- Add TensorFlow 
+     -- Add TensorFlow model
      -- Deploy on a web-server 
+     
 
 ## Use it with any kind of data
 You can train your custom system by modifying the queries inside script:
     
     queries=['Raccoon','Cat' ]
     Attributes=['running']
-    
-Indeed, you can customize this approach to download any kind of data from any site.
+
+ 
 
 Disclaimer:
-<br />
-1. Google images are subject to licensing. In case you want to use these images you  should refer to the license of every particular image
-<br />
-2. This tool does not allow you to surpass these licensing options. 
-<br />
-3. You will use this tool only for good purposes.
-<br />
+    <br />
+    1. Google images are subject to licensing. In case you want to use these images you  should refer to the license of every particular image
+    <br />
+    2. This tool does not allow you to surpass these licensing options. 
+    <br />
+    3. You will use this tool only for good purposes.
+    <br />
 
