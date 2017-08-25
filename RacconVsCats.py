@@ -187,7 +187,6 @@ if(ONLY_TRAIN==False):
         os.chdir(IMAGES_DIR+p);
         print(IMAGES_DIR+p)
         files = os.listdir(".");
-        # keep only 30/100 for val.
         val = int(len(files)/10);
         train = int(len(files)-val);
         print("Category:",p,"has",train,"train images and", val,"images")
