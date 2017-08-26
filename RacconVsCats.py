@@ -362,14 +362,14 @@ def exp_lr_scheduler(optimizer, epoch, init_lr=0.01, lr_decay_epoch=20):
     return optimizer
  
 #--------------------------------------------
-#                     Create Conv Net- Keel First two layers constant
+#                     Create Conv Net- Keep conv layers fixed
 #--------------------------------------------
 if(USER_PRETRAINED):
     model_conv = torchvision.models.resnet18(pretrained=True)
     for param in model_conv.parameters():
         param.requires_grad = False
 else:
-    model_conv = torchvision.models.resnet18(pretrained=True)
+    model_conv = torchvision.models.resnet18(pretrained=False)
         
 # Parameters of newly constructed modules have requires_grad=True by default
 num_ftrs = model_conv.fc.in_features
