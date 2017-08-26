@@ -53,12 +53,12 @@ plt.ion()
 #                     [Modify /home/dimitris/Desktop/chromedriver to your path]
 #----------------------------------------
 # Attention!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-#change the filepath of your chrome driver.
+# modify the path to show the chromedriver filepath
 ChromeDriver="/home/dimitris/Desktop/chromedriver";
 ROOT        ='/tmp/split/'
 IMAGES_DIR  = "/tmp/categories/";
-CUDA        = True; # by default we are working on CPU
-BATCH_SIZE  = 12;
+CUDA        = True; # by default we are working on GPU
+BATCH_SIZE  = 12;    # If your GPU run out of memory try with smaller batch size
 EPOCHS      = 50;
 TRAIN_DIR   = ROOT+'/train'
 VAL_DIR     = ROOT+'/val'
@@ -70,7 +70,7 @@ CUDA        =True
 # check if file exists
 if(not(os.path.exists(ChromeDriver))):
     print("================Error ===========================");
-    print("You need to download chromedriver and change the filepath here");
+    print("You need to download chromedriver and modify the filepath accordingly");
     print("=================================================");
     sys.exit()
 browser = webdriver.Chrome(ChromeDriver)
