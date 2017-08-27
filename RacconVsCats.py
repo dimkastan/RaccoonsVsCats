@@ -381,9 +381,12 @@ if use_gpu:
 criterion = nn.CrossEntropyLoss()
 
 #----------------------------------
-#                optimize layers active
+#                optimize  active layers (for pretrained model we optimize only fully connected, otherwise all layers)
 #----------------------------------
-optimizer_conv = optim.SGD(model_conv.fc.parameters(), lr=0.001, momentum=0.9)
+if(USER_PRETRAINED):
+    optimizer_conv = optim.SGD(model_conv.fc.parameters(), lr=0.001, momentum=0.9)
+else:
+    optimizer_conv = optim.SGD(model_conv.parameters(), lr=0.001, momentum=0.9)
 
 #----------------------------------
 #                 train network
