@@ -1,6 +1,7 @@
 # RaccoonsVsCats-  For those who are tired watching cats vs dogs examples
-In this repo, I will demonstrate how you can use Selenium in order to download images from Google Image Search using an Web Browser automation tool- In particular [Selenium](http://selenium-python.readthedocs.io/)
+In this repo, I will demonstrate how you can use an Web Automation tool named [Selenium](http://selenium-python.readthedocs.io/) in order to download images from Google Image Search.
 
+<br />
 After setting up your machine, you will perform the following two steps:
 <br />
 a. Download Images from Google Image search using <strong> selenium </strong> and Chrome Web-Driver 
