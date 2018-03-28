@@ -60,7 +60,9 @@ conda install pytorch torchvision cuda80 -c soumith
 Assuming that you already have installed anaconda in Anaconda_path, run the following command:
 
     ${Anaconda_path}/python RaccoonVsCats.py
+    
 <br />
+
 Enjoy!
 
 <br />
